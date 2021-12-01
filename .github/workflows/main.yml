@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{6b5efae7-c4ba-48ba-8f05-b2b5b45801a8}}
+          heroku_api_key: "6b5efae7-c4ba-48ba-8f05-b2b5b45801a8"
           heroku_app_name: "lab-iut-ci-cd-learn" #Must be unique in Heroku
           heroku_email: "khalidmasum@iut-dhaka.edu"
